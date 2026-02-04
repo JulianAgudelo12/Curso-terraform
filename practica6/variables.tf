@@ -24,3 +24,8 @@ variable "tags" {
   description = ""
   type        = map(string)
 }
+
+variable "sg_ingress_cidr" {
+  description = "CIDR Segurity group IPV4"
+  type        = string
+}
